@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Home" />
+    <item android:title="Add">
+        <menu>
+            <item
+                android:id="@+id/nav_add_model"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Model" />
+            <item
+                android:id="@+id/nav_add_battery"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Battery" />
+        </menu>
+    </item>
+
+    <item android:title="Backup">
+        <menu>
+            <item
+                android:id="@+id/nav_bkup_gdrive"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Google Drive" />
+            <item
+                android:id="@+id/nav_bkup_dropbox"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Dropbox" />
+        </menu>
+    </item>
+
+</menu>
